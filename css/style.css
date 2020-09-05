@@ -1,0 +1,154 @@
+body {
+    background-color: #F5FFFD;
+    margin: auto;
+    max-width: 1500px;
+}
+div {
+   border-radius: 15px; 
+   display: block;
+   padding: 20px;
+}
+.bottomLine {
+    display: block;
+    margin: auto;
+    border-bottom-color: #C4C4C4;
+    border-bottom: 2px;
+}
+/*Formatting header navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20%;
+    border-bottom: 5px;
+    border-color: #70857F;
+    /*  
+    display: inline-block;
+    vertical-align: top;
+    */
+}
+#navigation .navBar {
+    font-weight: 100;
+}
+.icons {
+    float: right;
+    position: absolute;
+    right: 200px;
+    width: 300px;
+    padding: 0px;
+}
+p.icons a>img {
+    margin-left: 50px;
+}
+
+/*Formatting intro div*/
+#hpBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.logoGh {
+    display: flex;
+    background-color: none;
+    padding: 10px;
+    width: 30%;
+}
+
+.hello {
+    background-color: #D1EBE4;
+    width: 65%;
+}
+
+/*Formatting case studies*/
+.angelCat {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.acLogo {
+    display: flex;
+    background-color: none;
+    padding: 10px;
+    width: 40%;
+}
+.acDescrip {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    background-color: #E2F9F3;  
+}
+
+.bookNest {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.bnDescrip {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    justify-content: right;
+    background-color: #E2F9F3;
+}
+.bnLogo {
+    display: flex;
+    background-color: none;
+    padding: 10px;
+    width: 40%;
+}
+
+/*Formatting See More Work*/
+.seeMore {
+    text-align: center;
+    margin: auto;
+
+}
+
+
+/*Formatting footer navigation*/
+
+
+/*TYPOGRAPHY*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: #70857F;
+    size: medium;
+}
+h2 {
+    font-family: 'Staatliches', cursive;
+    color: #7E8583;
+    size: medium;
+}
+h3 {
+    font-family: 'Alata', sans-serif;
+    size: 18px;
+    color: #70857F;
+}
+.hiName {
+    font-family: 'Staatliches',cursive;
+    color: #3A9F85;
+    size: large;
+}
+.navFooter {
+    font-family:'Roboto', sans-serif;
+    font-size: medium;
+    color: #D1EBE4;
+}
