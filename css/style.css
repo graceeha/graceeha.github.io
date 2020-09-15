@@ -1,12 +1,15 @@
 body {
     background-color: #F5FFFD;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1300px;
+    padding: 30px;
 }
+
 div {
    border-radius: 15px; 
-   display: block;
+   display: flex center;
    padding: 20px;
+   align: center;
 }
 .bottomLine {
     display: block;
@@ -14,20 +17,32 @@ div {
     border-bottom-color: #C4C4C4;
     border-bottom: 2px;
 }
+ 
+
+
 /*Formatting header navigation*/
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
   }
+a {
+    color: #70857F;
+    padding: 10px;
+}
+li a:hover {
+    color: #6AAF9D;
+}
 li {
     display: inline;
 }
 #navigation {
     display: flex;
     flex-direction: row;
-    margin: 0px 20%;
-    border-bottom: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+    border-bottom: 5px solid;
     border-color: #70857F;
     /*  
     display: inline-block;
@@ -35,31 +50,19 @@ li {
     */
 }
 #navigation .navBar {
-    font-weight: 100;
-}
-.icons {
-    float: right;
-    position: absolute;
-    right: 200px;
-    width: 300px;
-    padding: 0px;
-}
-p.icons a>img {
-    margin-left: 50px;
+    font-weight: 200;
 }
 
+
 /*Formatting intro div*/
-#hpBanner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
+
 .intro {
     display: flex;
     flex-direction: row;
     padding: 10px;
     margin: 10px;
+    justify-content: left;
+    max-height: 300px;
     
 }
 .logoGh {
@@ -72,6 +75,12 @@ p.icons a>img {
 .hello {
     background-color: #D1EBE4;
     width: 65%;
+}
+.quotes {
+    background-color: #E2F9F3;
+    height: 50px;
+    width: auto;
+    display: inline-block;
 }
 
 /*Formatting case studies*/
@@ -87,13 +96,18 @@ p.icons a>img {
     width: 40%;
 }
 .acDescrip {
-    display: flex;
+    display: block;
     flex-direction: row;
     padding: 10px;
     margin: 10px;
     background-color: #E2F9F3;  
 }
-
+.acDescripTitle {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+   
+}
 .bookNest {
     display: flex;
     flex-direction: row;
@@ -107,6 +121,10 @@ p.icons a>img {
     justify-content: right;
     background-color: #E2F9F3;
 }
+.bnDescripTitle {
+    display: flex;
+    flex-direction: row;
+}
 .bnLogo {
     display: flex;
     background-color: none;
@@ -118,7 +136,9 @@ p.icons a>img {
 .seeMore {
     text-align: center;
     margin: auto;
-
+}
+.chevron {
+    width: 40px;
 }
 
 
@@ -131,11 +151,13 @@ h1 {
     font-size: medium;
     color: #70857F;
     size: medium;
+    display: inline;
 }
 h2 {
     font-family: 'Staatliches', cursive;
     color: #7E8583;
     size: medium;
+    display: inline;
 }
 h3 {
     font-family: 'Alata', sans-serif;
